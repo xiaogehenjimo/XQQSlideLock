@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		67797DF61E07778B00EC6B2B /* XQQShowResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67797DF51E07778B00EC6B2B /* XQQShowResultView.m */; };
+		67797DF91E07788E00EC6B2B /* XQQSlideLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67797DF81E07788E00EC6B2B /* XQQSlideLockView.m */; };
+		67797DFF1E077B0600EC6B2B /* UIView+XQQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 67797DFE1E077B0600EC6B2B /* UIView+XQQExtension.m */; };
+		67797E041E07B84E00EC6B2B /* music.wav in Resources */ = {isa = PBXBuildFile; fileRef = 67797E031E07B84E00EC6B2B /* music.wav */; };
+		67797E071E07D5EC00EC6B2B /* XQQReminderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67797E061E07D5EC00EC6B2B /* XQQReminderView.m */; };
+		67E2635B1E026405001D0C01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E2635A1E026405001D0C01 /* main.m */; };
+		67E2635E1E026405001D0C01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E2635D1E026405001D0C01 /* AppDelegate.m */; };
+		67E263661E026405001D0C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E263651E026405001D0C01 /* Assets.xcassets */; };
+		67E263721E026455001D0C01 /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E263711E026455001D0C01 /* mainViewController.m */; };
+		67EAB7DE1E0A1F2400C1D4A7 /* XQQSlidePwdOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EAB7DD1E0A1F2400C1D4A7 /* XQQSlidePwdOperation.m */; };
+		67EAB83D1E0A6B5900C1D4A7 /* XQQSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EAB83C1E0A6B5900C1D4A7 /* XQQSlideViewController.m */; };
+		67EAB8571E0A6E5100C1D4A7 /* CALayer+XQQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EAB8561E0A6E5100C1D4A7 /* CALayer+XQQExtension.m */; };
+		67F0BF521E03C50800DD12A0 /* XQQSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0BF511E03C50800DD12A0 /* XQQSlideView.m */; };
+		67F0BF551E03C54100DD12A0 /* XQQSlideItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0BF541E03C54100DD12A0 /* XQQSlideItem.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		67797DF41E07778B00EC6B2B /* XQQShowResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQShowResultView.h; sourceTree = "<group>"; };
+		67797DF51E07778B00EC6B2B /* XQQShowResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQShowResultView.m; sourceTree = "<group>"; };
+		67797DF71E07788E00EC6B2B /* XQQSlideLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQSlideLockView.h; sourceTree = "<group>"; };
+		67797DF81E07788E00EC6B2B /* XQQSlideLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQSlideLockView.m; sourceTree = "<group>"; };
+		67797DFD1E077B0600EC6B2B /* UIView+XQQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XQQExtension.h"; sourceTree = "<group>"; };
+		67797DFE1E077B0600EC6B2B /* UIView+XQQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XQQExtension.m"; sourceTree = "<group>"; };
+		67797E001E077B5600EC6B2B /* XQQSlideLockHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XQQSlideLockHeader.h; sourceTree = "<group>"; };
+		67797E031E07B84E00EC6B2B /* music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = music.wav; sourceTree = "<group>"; };
+		67797E051E07D5EC00EC6B2B /* XQQReminderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQReminderView.h; sourceTree = "<group>"; };
+		67797E061E07D5EC00EC6B2B /* XQQReminderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQReminderView.m; sourceTree = "<group>"; };
+		67E263561E026405001D0C01 /* sliderLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sliderLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		67E2635A1E026405001D0C01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		67E2635C1E026405001D0C01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		67E2635D1E026405001D0C01 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		67E263651E026405001D0C01 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		67E2636A1E026405001D0C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67E263701E026455001D0C01 /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
+		67E263711E026455001D0C01 /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
+		67EAB7DC1E0A1F2400C1D4A7 /* XQQSlidePwdOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQSlidePwdOperation.h; sourceTree = "<group>"; };
+		67EAB7DD1E0A1F2400C1D4A7 /* XQQSlidePwdOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQSlidePwdOperation.m; sourceTree = "<group>"; };
+		67EAB83B1E0A6B5900C1D4A7 /* XQQSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQSlideViewController.h; sourceTree = "<group>"; };
+		67EAB83C1E0A6B5900C1D4A7 /* XQQSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQSlideViewController.m; sourceTree = "<group>"; };
+		67EAB8551E0A6E5100C1D4A7 /* CALayer+XQQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+XQQExtension.h"; sourceTree = "<group>"; };
+		67EAB8561E0A6E5100C1D4A7 /* CALayer+XQQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+XQQExtension.m"; sourceTree = "<group>"; };
+		67F0BF501E03C50800DD12A0 /* XQQSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQSlideView.h; sourceTree = "<group>"; };
+		67F0BF511E03C50800DD12A0 /* XQQSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQSlideView.m; sourceTree = "<group>"; };
+		67F0BF531E03C54100DD12A0 /* XQQSlideItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQSlideItem.h; sourceTree = "<group>"; };
+		67F0BF541E03C54100DD12A0 /* XQQSlideItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQSlideItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		67E263531E026405001D0C01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		67E2634D1E026405001D0C01 = {
+			isa = PBXGroup;
+			children = (
+				67E263581E026405001D0C01 /* sliderLock */,
+				67E263571E026405001D0C01 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		67E263571E026405001D0C01 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				67E263561E026405001D0C01 /* sliderLock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		67E263581E026405001D0C01 /* sliderLock */ = {
+			isa = PBXGroup;
+			children = (
+				67F0BF4F1E03C4EE00DD12A0 /* XQQSlideLock */,
+				67E2635C1E026405001D0C01 /* AppDelegate.h */,
+				67E2635D1E026405001D0C01 /* AppDelegate.m */,
+				67E263701E026455001D0C01 /* mainViewController.h */,
+				67E263711E026455001D0C01 /* mainViewController.m */,
+				67E263591E026405001D0C01 /* Supporting Files */,
+			);
+			path = sliderLock;
+			sourceTree = "<group>";
+		};
+		67E263591E026405001D0C01 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				67E263651E026405001D0C01 /* Assets.xcassets */,
+				67E2636A1E026405001D0C01 /* Info.plist */,
+				67E2635A1E026405001D0C01 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		67F0BF4F1E03C4EE00DD12A0 /* XQQSlideLock */ = {
+			isa = PBXGroup;
+			children = (
+				67797E031E07B84E00EC6B2B /* music.wav */,
+				67EAB83B1E0A6B5900C1D4A7 /* XQQSlideViewController.h */,
+				67EAB83C1E0A6B5900C1D4A7 /* XQQSlideViewController.m */,
+				67F0BF501E03C50800DD12A0 /* XQQSlideView.h */,
+				67F0BF511E03C50800DD12A0 /* XQQSlideView.m */,
+				67F0BF531E03C54100DD12A0 /* XQQSlideItem.h */,
+				67F0BF541E03C54100DD12A0 /* XQQSlideItem.m */,
+				67797DF41E07778B00EC6B2B /* XQQShowResultView.h */,
+				67797DF51E07778B00EC6B2B /* XQQShowResultView.m */,
+				67797DF71E07788E00EC6B2B /* XQQSlideLockView.h */,
+				67797DF81E07788E00EC6B2B /* XQQSlideLockView.m */,
+				67797E051E07D5EC00EC6B2B /* XQQReminderView.h */,
+				67797E061E07D5EC00EC6B2B /* XQQReminderView.m */,
+				67EAB7DC1E0A1F2400C1D4A7 /* XQQSlidePwdOperation.h */,
+				67EAB7DD1E0A1F2400C1D4A7 /* XQQSlidePwdOperation.m */,
+				67797DFD1E077B0600EC6B2B /* UIView+XQQExtension.h */,
+				67797DFE1E077B0600EC6B2B /* UIView+XQQExtension.m */,
+				67EAB8551E0A6E5100C1D4A7 /* CALayer+XQQExtension.h */,
+				67EAB8561E0A6E5100C1D4A7 /* CALayer+XQQExtension.m */,
+				67797E001E077B5600EC6B2B /* XQQSlideLockHeader.h */,
+			);
+			path = XQQSlideLock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		67E263551E026405001D0C01 /* sliderLock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67E2636D1E026405001D0C01 /* Build configuration list for PBXNativeTarget "sliderLock" */;
+			buildPhases = (
+				67E263521E026405001D0C01 /* Sources */,
+				67E263531E026405001D0C01 /* Frameworks */,
+				67E263541E026405001D0C01 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = sliderLock;
+			productName = sliderLock;
+			productReference = 67E263561E026405001D0C01 /* sliderLock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		67E2634E1E026405001D0C01 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = UIP;
+				TargetAttributes = {
+					67E263551E026405001D0C01 = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = DXV95ACF77;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 67E263511E026405001D0C01 /* Build configuration list for PBXProject "sliderLock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 67E2634D1E026405001D0C01;
+			productRefGroup = 67E263571E026405001D0C01 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				67E263551E026405001D0C01 /* sliderLock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		67E263541E026405001D0C01 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67797E041E07B84E00EC6B2B /* music.wav in Resources */,
+				67E263661E026405001D0C01 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		67E263521E026405001D0C01 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				67797DF91E07788E00EC6B2B /* XQQSlideLockView.m in Sources */,
+				67EAB7DE1E0A1F2400C1D4A7 /* XQQSlidePwdOperation.m in Sources */,
+				67797DF61E07778B00EC6B2B /* XQQShowResultView.m in Sources */,
+				67797E071E07D5EC00EC6B2B /* XQQReminderView.m in Sources */,
+				67E263721E026455001D0C01 /* mainViewController.m in Sources */,
+				67E2635E1E026405001D0C01 /* AppDelegate.m in Sources */,
+				67EAB83D1E0A6B5900C1D4A7 /* XQQSlideViewController.m in Sources */,
+				67E2635B1E026405001D0C01 /* main.m in Sources */,
+				67F0BF551E03C54100DD12A0 /* XQQSlideItem.m in Sources */,
+				67F0BF521E03C50800DD12A0 /* XQQSlideView.m in Sources */,
+				67EAB8571E0A6E5100C1D4A7 /* CALayer+XQQExtension.m in Sources */,
+				67797DFF1E077B0600EC6B2B /* UIView+XQQExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		67E2636B1E026405001D0C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		67E2636C1E026405001D0C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		67E2636E1E026405001D0C01 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DXV95ACF77;
+				INFOPLIST_FILE = sliderLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UIP.sliderLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		67E2636F1E026405001D0C01 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = DXV95ACF77;
+				INFOPLIST_FILE = sliderLock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = UIP.sliderLock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		67E263511E026405001D0C01 /* Build configuration list for PBXProject "sliderLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E2636B1E026405001D0C01 /* Debug */,
+				67E2636C1E026405001D0C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67E2636D1E026405001D0C01 /* Build configuration list for PBXNativeTarget "sliderLock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				67E2636E1E026405001D0C01 /* Debug */,
+				67E2636F1E026405001D0C01 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 67E2634E1E026405001D0C01 /* Project object */;
+}
