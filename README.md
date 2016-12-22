@@ -7,4 +7,4 @@
 
 
 
-![image](https://github.com/xiaogehenjimo/XQQSlideLock/blob/master/sliderLock/223333333333.gif)
+![image](https://github.com/xiaogehenjimo/XQQSlideLock/blob/master/223333333333.gif)
