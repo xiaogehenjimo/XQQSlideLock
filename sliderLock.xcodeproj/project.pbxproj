@@ -7,33 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		67797DF61E07778B00EC6B2B /* XQQShowResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67797DF51E07778B00EC6B2B /* XQQShowResultView.m */; };
-		67797DF91E07788E00EC6B2B /* XQQSlideLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67797DF81E07788E00EC6B2B /* XQQSlideLockView.m */; };
-		67797DFF1E077B0600EC6B2B /* UIView+XQQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 67797DFE1E077B0600EC6B2B /* UIView+XQQExtension.m */; };
-		67797E041E07B84E00EC6B2B /* music.wav in Resources */ = {isa = PBXBuildFile; fileRef = 67797E031E07B84E00EC6B2B /* music.wav */; };
-		67797E071E07D5EC00EC6B2B /* XQQReminderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67797E061E07D5EC00EC6B2B /* XQQReminderView.m */; };
+		67D26C8E1E0B6AE100AB1D39 /* CALayer+XQQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D26C7B1E0B6AE100AB1D39 /* CALayer+XQQExtension.m */; };
+		67D26C8F1E0B6AE100AB1D39 /* music.wav in Resources */ = {isa = PBXBuildFile; fileRef = 67D26C7C1E0B6AE100AB1D39 /* music.wav */; };
+		67D26C901E0B6AE100AB1D39 /* UIView+XQQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D26C7E1E0B6AE100AB1D39 /* UIView+XQQExtension.m */; };
+		67D26C911E0B6AE100AB1D39 /* XQQReminderView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D26C801E0B6AE100AB1D39 /* XQQReminderView.m */; };
+		67D26C921E0B6AE100AB1D39 /* XQQShowResultView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D26C821E0B6AE100AB1D39 /* XQQShowResultView.m */; };
+		67D26C931E0B6AE100AB1D39 /* XQQSlideItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D26C841E0B6AE100AB1D39 /* XQQSlideItem.m */; };
+		67D26C941E0B6AE100AB1D39 /* XQQSlideLockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D26C871E0B6AE100AB1D39 /* XQQSlideLockView.m */; };
+		67D26C951E0B6AE100AB1D39 /* XQQSlidePwdOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D26C891E0B6AE100AB1D39 /* XQQSlidePwdOperation.m */; };
+		67D26C961E0B6AE100AB1D39 /* XQQSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D26C8B1E0B6AE100AB1D39 /* XQQSlideView.m */; };
+		67D26C971E0B6AE100AB1D39 /* XQQSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67D26C8D1E0B6AE100AB1D39 /* XQQSlideViewController.m */; };
 		67E2635B1E026405001D0C01 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E2635A1E026405001D0C01 /* main.m */; };
 		67E2635E1E026405001D0C01 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E2635D1E026405001D0C01 /* AppDelegate.m */; };
 		67E263661E026405001D0C01 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 67E263651E026405001D0C01 /* Assets.xcassets */; };
 		67E263721E026455001D0C01 /* mainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67E263711E026455001D0C01 /* mainViewController.m */; };
-		67EAB7DE1E0A1F2400C1D4A7 /* XQQSlidePwdOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EAB7DD1E0A1F2400C1D4A7 /* XQQSlidePwdOperation.m */; };
-		67EAB83D1E0A6B5900C1D4A7 /* XQQSlideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EAB83C1E0A6B5900C1D4A7 /* XQQSlideViewController.m */; };
-		67EAB8571E0A6E5100C1D4A7 /* CALayer+XQQExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 67EAB8561E0A6E5100C1D4A7 /* CALayer+XQQExtension.m */; };
-		67F0BF521E03C50800DD12A0 /* XQQSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0BF511E03C50800DD12A0 /* XQQSlideView.m */; };
-		67F0BF551E03C54100DD12A0 /* XQQSlideItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 67F0BF541E03C54100DD12A0 /* XQQSlideItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		67797DF41E07778B00EC6B2B /* XQQShowResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQShowResultView.h; sourceTree = "<group>"; };
-		67797DF51E07778B00EC6B2B /* XQQShowResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQShowResultView.m; sourceTree = "<group>"; };
-		67797DF71E07788E00EC6B2B /* XQQSlideLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQSlideLockView.h; sourceTree = "<group>"; };
-		67797DF81E07788E00EC6B2B /* XQQSlideLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQSlideLockView.m; sourceTree = "<group>"; };
-		67797DFD1E077B0600EC6B2B /* UIView+XQQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XQQExtension.h"; sourceTree = "<group>"; };
-		67797DFE1E077B0600EC6B2B /* UIView+XQQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XQQExtension.m"; sourceTree = "<group>"; };
-		67797E001E077B5600EC6B2B /* XQQSlideLockHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XQQSlideLockHeader.h; sourceTree = "<group>"; };
-		67797E031E07B84E00EC6B2B /* music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = music.wav; sourceTree = "<group>"; };
-		67797E051E07D5EC00EC6B2B /* XQQReminderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQReminderView.h; sourceTree = "<group>"; };
-		67797E061E07D5EC00EC6B2B /* XQQReminderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQReminderView.m; sourceTree = "<group>"; };
+		67D26C7A1E0B6AE100AB1D39 /* CALayer+XQQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+XQQExtension.h"; sourceTree = "<group>"; };
+		67D26C7B1E0B6AE100AB1D39 /* CALayer+XQQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+XQQExtension.m"; sourceTree = "<group>"; };
+		67D26C7C1E0B6AE100AB1D39 /* music.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = music.wav; sourceTree = "<group>"; };
+		67D26C7D1E0B6AE100AB1D39 /* UIView+XQQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+XQQExtension.h"; sourceTree = "<group>"; };
+		67D26C7E1E0B6AE100AB1D39 /* UIView+XQQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+XQQExtension.m"; sourceTree = "<group>"; };
+		67D26C7F1E0B6AE100AB1D39 /* XQQReminderView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQReminderView.h; sourceTree = "<group>"; };
+		67D26C801E0B6AE100AB1D39 /* XQQReminderView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQReminderView.m; sourceTree = "<group>"; };
+		67D26C811E0B6AE100AB1D39 /* XQQShowResultView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQShowResultView.h; sourceTree = "<group>"; };
+		67D26C821E0B6AE100AB1D39 /* XQQShowResultView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQShowResultView.m; sourceTree = "<group>"; };
+		67D26C831E0B6AE100AB1D39 /* XQQSlideItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQSlideItem.h; sourceTree = "<group>"; };
+		67D26C841E0B6AE100AB1D39 /* XQQSlideItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQSlideItem.m; sourceTree = "<group>"; };
+		67D26C851E0B6AE100AB1D39 /* XQQSlideLockHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQSlideLockHeader.h; sourceTree = "<group>"; };
+		67D26C861E0B6AE100AB1D39 /* XQQSlideLockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQSlideLockView.h; sourceTree = "<group>"; };
+		67D26C871E0B6AE100AB1D39 /* XQQSlideLockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQSlideLockView.m; sourceTree = "<group>"; };
+		67D26C881E0B6AE100AB1D39 /* XQQSlidePwdOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQSlidePwdOperation.h; sourceTree = "<group>"; };
+		67D26C891E0B6AE100AB1D39 /* XQQSlidePwdOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQSlidePwdOperation.m; sourceTree = "<group>"; };
+		67D26C8A1E0B6AE100AB1D39 /* XQQSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQSlideView.h; sourceTree = "<group>"; };
+		67D26C8B1E0B6AE100AB1D39 /* XQQSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQSlideView.m; sourceTree = "<group>"; };
+		67D26C8C1E0B6AE100AB1D39 /* XQQSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQSlideViewController.h; sourceTree = "<group>"; };
+		67D26C8D1E0B6AE100AB1D39 /* XQQSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQSlideViewController.m; sourceTree = "<group>"; };
 		67E263561E026405001D0C01 /* sliderLock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sliderLock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		67E2635A1E026405001D0C01 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		67E2635C1E026405001D0C01 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -42,16 +52,6 @@
 		67E2636A1E026405001D0C01 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		67E263701E026455001D0C01 /* mainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mainViewController.h; sourceTree = "<group>"; };
 		67E263711E026455001D0C01 /* mainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mainViewController.m; sourceTree = "<group>"; };
-		67EAB7DC1E0A1F2400C1D4A7 /* XQQSlidePwdOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQSlidePwdOperation.h; sourceTree = "<group>"; };
-		67EAB7DD1E0A1F2400C1D4A7 /* XQQSlidePwdOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQSlidePwdOperation.m; sourceTree = "<group>"; };
-		67EAB83B1E0A6B5900C1D4A7 /* XQQSlideViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQSlideViewController.h; sourceTree = "<group>"; };
-		67EAB83C1E0A6B5900C1D4A7 /* XQQSlideViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQSlideViewController.m; sourceTree = "<group>"; };
-		67EAB8551E0A6E5100C1D4A7 /* CALayer+XQQExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CALayer+XQQExtension.h"; sourceTree = "<group>"; };
-		67EAB8561E0A6E5100C1D4A7 /* CALayer+XQQExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CALayer+XQQExtension.m"; sourceTree = "<group>"; };
-		67F0BF501E03C50800DD12A0 /* XQQSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQSlideView.h; sourceTree = "<group>"; };
-		67F0BF511E03C50800DD12A0 /* XQQSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQSlideView.m; sourceTree = "<group>"; };
-		67F0BF531E03C54100DD12A0 /* XQQSlideItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XQQSlideItem.h; sourceTree = "<group>"; };
-		67F0BF541E03C54100DD12A0 /* XQQSlideItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XQQSlideItem.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,9 +65,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		67D26C791E0B6AE100AB1D39 /* XQQSlideLock */ = {
+			isa = PBXGroup;
+			children = (
+				67D26C7A1E0B6AE100AB1D39 /* CALayer+XQQExtension.h */,
+				67D26C7B1E0B6AE100AB1D39 /* CALayer+XQQExtension.m */,
+				67D26C7C1E0B6AE100AB1D39 /* music.wav */,
+				67D26C7D1E0B6AE100AB1D39 /* UIView+XQQExtension.h */,
+				67D26C7E1E0B6AE100AB1D39 /* UIView+XQQExtension.m */,
+				67D26C7F1E0B6AE100AB1D39 /* XQQReminderView.h */,
+				67D26C801E0B6AE100AB1D39 /* XQQReminderView.m */,
+				67D26C811E0B6AE100AB1D39 /* XQQShowResultView.h */,
+				67D26C821E0B6AE100AB1D39 /* XQQShowResultView.m */,
+				67D26C831E0B6AE100AB1D39 /* XQQSlideItem.h */,
+				67D26C841E0B6AE100AB1D39 /* XQQSlideItem.m */,
+				67D26C851E0B6AE100AB1D39 /* XQQSlideLockHeader.h */,
+				67D26C861E0B6AE100AB1D39 /* XQQSlideLockView.h */,
+				67D26C871E0B6AE100AB1D39 /* XQQSlideLockView.m */,
+				67D26C881E0B6AE100AB1D39 /* XQQSlidePwdOperation.h */,
+				67D26C891E0B6AE100AB1D39 /* XQQSlidePwdOperation.m */,
+				67D26C8A1E0B6AE100AB1D39 /* XQQSlideView.h */,
+				67D26C8B1E0B6AE100AB1D39 /* XQQSlideView.m */,
+				67D26C8C1E0B6AE100AB1D39 /* XQQSlideViewController.h */,
+				67D26C8D1E0B6AE100AB1D39 /* XQQSlideViewController.m */,
+			);
+			path = XQQSlideLock;
+			sourceTree = "<group>";
+		};
 		67E2634D1E026405001D0C01 = {
 			isa = PBXGroup;
 			children = (
+				67D26C791E0B6AE100AB1D39 /* XQQSlideLock */,
 				67E263581E026405001D0C01 /* sliderLock */,
 				67E263571E026405001D0C01 /* Products */,
 			);
@@ -84,7 +112,6 @@
 		67E263581E026405001D0C01 /* sliderLock */ = {
 			isa = PBXGroup;
 			children = (
-				67F0BF4F1E03C4EE00DD12A0 /* XQQSlideLock */,
 				67E2635C1E026405001D0C01 /* AppDelegate.h */,
 				67E2635D1E026405001D0C01 /* AppDelegate.m */,
 				67E263701E026455001D0C01 /* mainViewController.h */,
@@ -102,33 +129,6 @@
 				67E2635A1E026405001D0C01 /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		67F0BF4F1E03C4EE00DD12A0 /* XQQSlideLock */ = {
-			isa = PBXGroup;
-			children = (
-				67797E031E07B84E00EC6B2B /* music.wav */,
-				67EAB83B1E0A6B5900C1D4A7 /* XQQSlideViewController.h */,
-				67EAB83C1E0A6B5900C1D4A7 /* XQQSlideViewController.m */,
-				67F0BF501E03C50800DD12A0 /* XQQSlideView.h */,
-				67F0BF511E03C50800DD12A0 /* XQQSlideView.m */,
-				67F0BF531E03C54100DD12A0 /* XQQSlideItem.h */,
-				67F0BF541E03C54100DD12A0 /* XQQSlideItem.m */,
-				67797DF41E07778B00EC6B2B /* XQQShowResultView.h */,
-				67797DF51E07778B00EC6B2B /* XQQShowResultView.m */,
-				67797DF71E07788E00EC6B2B /* XQQSlideLockView.h */,
-				67797DF81E07788E00EC6B2B /* XQQSlideLockView.m */,
-				67797E051E07D5EC00EC6B2B /* XQQReminderView.h */,
-				67797E061E07D5EC00EC6B2B /* XQQReminderView.m */,
-				67EAB7DC1E0A1F2400C1D4A7 /* XQQSlidePwdOperation.h */,
-				67EAB7DD1E0A1F2400C1D4A7 /* XQQSlidePwdOperation.m */,
-				67797DFD1E077B0600EC6B2B /* UIView+XQQExtension.h */,
-				67797DFE1E077B0600EC6B2B /* UIView+XQQExtension.m */,
-				67EAB8551E0A6E5100C1D4A7 /* CALayer+XQQExtension.h */,
-				67EAB8561E0A6E5100C1D4A7 /* CALayer+XQQExtension.m */,
-				67797E001E077B5600EC6B2B /* XQQSlideLockHeader.h */,
-			);
-			path = XQQSlideLock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -190,7 +190,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67797E041E07B84E00EC6B2B /* music.wav in Resources */,
+				67D26C8F1E0B6AE100AB1D39 /* music.wav in Resources */,
 				67E263661E026405001D0C01 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -202,18 +202,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67797DF91E07788E00EC6B2B /* XQQSlideLockView.m in Sources */,
-				67EAB7DE1E0A1F2400C1D4A7 /* XQQSlidePwdOperation.m in Sources */,
-				67797DF61E07778B00EC6B2B /* XQQShowResultView.m in Sources */,
-				67797E071E07D5EC00EC6B2B /* XQQReminderView.m in Sources */,
+				67D26C921E0B6AE100AB1D39 /* XQQShowResultView.m in Sources */,
+				67D26C971E0B6AE100AB1D39 /* XQQSlideViewController.m in Sources */,
+				67D26C961E0B6AE100AB1D39 /* XQQSlideView.m in Sources */,
+				67D26C941E0B6AE100AB1D39 /* XQQSlideLockView.m in Sources */,
+				67D26C8E1E0B6AE100AB1D39 /* CALayer+XQQExtension.m in Sources */,
 				67E263721E026455001D0C01 /* mainViewController.m in Sources */,
+				67D26C931E0B6AE100AB1D39 /* XQQSlideItem.m in Sources */,
 				67E2635E1E026405001D0C01 /* AppDelegate.m in Sources */,
-				67EAB83D1E0A6B5900C1D4A7 /* XQQSlideViewController.m in Sources */,
+				67D26C951E0B6AE100AB1D39 /* XQQSlidePwdOperation.m in Sources */,
+				67D26C901E0B6AE100AB1D39 /* UIView+XQQExtension.m in Sources */,
 				67E2635B1E026405001D0C01 /* main.m in Sources */,
-				67F0BF551E03C54100DD12A0 /* XQQSlideItem.m in Sources */,
-				67F0BF521E03C50800DD12A0 /* XQQSlideView.m in Sources */,
-				67EAB8571E0A6E5100C1D4A7 /* CALayer+XQQExtension.m in Sources */,
-				67797DFF1E077B0600EC6B2B /* UIView+XQQExtension.m in Sources */,
+				67D26C911E0B6AE100AB1D39 /* XQQReminderView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
