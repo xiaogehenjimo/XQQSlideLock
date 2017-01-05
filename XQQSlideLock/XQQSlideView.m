@@ -74,7 +74,7 @@
     }
     return self;
 }
-
+/*初始化UI*/
 - (void)initUI{
     __weak typeof(self) weakSelf = self;
     //上部分为滑动结果小View
